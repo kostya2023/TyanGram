@@ -1,6 +1,6 @@
 package androidx.recyclerview.widget;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.konstantin.tyangram.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,25 +18,25 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Cells.BotHelpCell;
-import org.telegram.ui.Cells.ChatActionCell;
-import org.telegram.ui.Cells.ChatMessageCell;
-import org.telegram.ui.Cells.UserInfoCell;
-import org.telegram.ui.ChatActivity;
-import org.telegram.ui.Components.ChatGreetingsView;
-import org.telegram.ui.Components.CubicBezierInterpolator;
-import org.telegram.ui.Components.RecyclerListView;
-import org.telegram.ui.Components.ThanosEffect;
-import org.telegram.ui.TextMessageEnterTransition;
-import org.telegram.ui.VoiceMessageEnterTransition;
+import org.konstantin.tyangram.AndroidUtilities;
+import org.konstantin.tyangram.BuildVars;
+import org.konstantin.tyangram.FileLog;
+import org.konstantin.tyangram.ImageReceiver;
+import org.konstantin.tyangram.MessageObject;
+import org.konstantin.tyangram.SharedConfig;
+import org.konstantin.tyangram.Utilities;
+import org.konstantin.ui.ActionBar.Theme;
+import org.konstantin.ui.Cells.BotHelpCell;
+import org.konstantin.ui.Cells.ChatActionCell;
+import org.konstantin.ui.Cells.ChatMessageCell;
+import org.konstantin.ui.Cells.UserInfoCell;
+import org.konstantin.ui.ChatActivity;
+import org.konstantin.ui.Components.ChatGreetingsView;
+import org.konstantin.ui.Components.CubicBezierInterpolator;
+import org.konstantin.ui.Components.RecyclerListView;
+import org.konstantin.ui.Components.ThanosEffect;
+import org.konstantin.ui.TextMessageEnterTransition;
+import org.konstantin.ui.VoiceMessageEnterTransition;
 
 import java.util.ArrayList;
 import java.util.Collections;

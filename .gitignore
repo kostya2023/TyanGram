@@ -13,3 +13,17 @@ TMessagesProj_App/afat/
 TMessagesProj_AppHockeyApp/afat/
 TMessagesProj_AppStandalone/afat/
 TMessagesProj_AppHuawei/afat/
+
+# Keystore (приватный ключ подписи)
+TMessagesProj/config/release.keystore
+
+# APK и build-артефакты
+*.apk
+*.apks
+*.aab
+
+# Temporary keystore backup
+*.jks
+*.keystore
+*.pem
+*.p12

@@ -16,7 +16,7 @@
 
 package com.google.zxing.qrcode;
 
-import static org.telegram.messenger.AndroidUtilities.readRes;
+import static org.konstantin.tyangram.AndroidUtilities.readRes;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -34,9 +34,9 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import com.google.zxing.qrcode.encoder.Encoder;
 import com.google.zxing.qrcode.encoder.QRCode;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SvgHelper;
+import org.konstantin.tyangram.AndroidUtilities;
+import org.konstantin.tyangram.R;
+import org.konstantin.tyangram.SvgHelper;
 
 import java.util.Arrays;
 import java.util.Map;
